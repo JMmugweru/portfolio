@@ -10,6 +10,7 @@ const SkillCard = ({ imgSrc, label, desc, classes }) => {
       <div>
         <h3 className="text-lg font-medium">{label}</h3>
         <p className="text-sm text-zinc-400">{desc}</p>
+        <a href="http://" target="_blank" rel="noopener noreferrer"></a>
       </div>
     </div>
   );
